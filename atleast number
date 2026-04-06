@@ -1,0 +1,8 @@
+text=input("enter a string:")
+if len(text)<3:
+    result=text
+elif text[-3:]=="ing":
+    result=text+"ly"
+else:
+    result=text+"ing"
+print(result)
